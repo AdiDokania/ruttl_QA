@@ -1,8 +1,6 @@
 import time
 from behave import *
 from selenium import webdriver
-
-
 from Utilities.CustomLogger import LogGen
 from Configuration.config import TestData
 from Pages.HomePage import HomePage
@@ -34,9 +32,8 @@ def verify_Page_Title(context):
         mylogger.info("** Title Verified **")
     else:
         mylogger.info("** Title Not Verified **")
-        assert False
         context.driver.save_screenshot(".\\Screenshots\\LoginPageTitle.png")
-        time.sleep(1)
+        assert False
 
 
 @then('Login to the Application')
@@ -57,8 +54,8 @@ def verify_Login_Credentials(context):
         mylogger.info("** Person Verified **")
     else:
         mylogger.info("** Person Not Verified **")
-        assert False
         context.driver.save_screenshot(".\\Screenshots\\LoginDisplayName.png")
+        assert False
 
 
 @then('Click on Projects')

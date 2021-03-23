@@ -9,7 +9,10 @@ class TestData:
     Password = 'QWERTY1'
     ProjectName = 'Test'
     WebsiteURL = "https://material-ui.com/"
+    ForgetPasswordPageText = 'Forgot your password?'
+    EmailMessage = 'A password reset email has been sent to your email address.'
 
 
 """command to run test cases"""
 """ behave --no-capture Features/login.feature """
+#behave --no-capture Features/forgetPassword.feature

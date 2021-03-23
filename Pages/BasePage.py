@@ -6,7 +6,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.alert import Alert
 from selenium import webdriver
-import openpyxl
 from selenium.webdriver.common.action_chains import ActionChains
 
 """This class is the Parent of all Pages"""

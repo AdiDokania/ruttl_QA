@@ -1,5 +1,4 @@
 import time
-
 from selenium.webdriver.common.by import By
 from Configuration.config import TestData
 from Pages.BasePage import BasePage
@@ -17,8 +16,8 @@ class HomePage(BasePage):
     EnterWebURL = (By.XPATH, "//input[@placeholder='Enter web URL']")
     AddPage = (By.XPATH, "//input[@placeholder='Enter web URL']/following::button[text()='Add Page']")
     ViewPage = (By.XPATH, "//input[@name ='pTitle']/preceding::a[text()='View page']")
-    LaterBtn =(By.XPATH, "//button[text()='Later']")
-    NoThanksBtn =(By.XPATH, "//button[text()='No Thanks']")
+    LaterBtn = (By.XPATH, "//button[text()='Later']")
+    NoThanksBtn = (By.XPATH, "//button[text()='No Thanks']")
     CardClick = (By.XPATH, "//input[@name ='pTitle']")
 
     def __init__(self, driver):

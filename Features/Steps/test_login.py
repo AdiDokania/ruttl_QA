@@ -1,4 +1,6 @@
 import time
+import allure
+import allure_commons
 from behave import *
 from selenium import webdriver
 from Utilities.CustomLogger import LogGen

@@ -16,3 +16,5 @@ class TestData:
 """command to run test cases"""
 """ behave --no-capture Features/login.feature """
 #behave --no-capture Features/forgetPassword.feature
+#behave --format=allure_behave.formatter:AllureFormatter -o Reports
+

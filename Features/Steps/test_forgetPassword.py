@@ -19,7 +19,7 @@ def launch_browser(context):
     context.driver.get(TestData.BASEURL)
     time.sleep(10)
     mylogger.info("** URL Launched **")
-    
+
 
 @when('Verify page title')
 def verify_Page_Title(context):

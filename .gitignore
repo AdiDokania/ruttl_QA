@@ -1,3 +1,5 @@
-Reports
-Screenshots
-Logs
+Reports/
+ruttl.log
+Screenshots/
+Logs/
+.idea/

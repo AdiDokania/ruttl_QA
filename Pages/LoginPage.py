@@ -1,12 +1,16 @@
 from selenium.webdriver.common.by import By
 from Configuration.config import TestData
 from Pages.BasePage import BasePage
+from Utilities import Email
+from Utilities.Email import getlink
 
 
 class LoginPage(BasePage):
     Email = (By.NAME, 'email')
     Password = (By.NAME, 'password')
     Sign_in = (By.XPATH, "//button[text()='Sign in']")
+    link = getlink()
+
 
     def __init__(self, driver):
         super().__init__(driver)

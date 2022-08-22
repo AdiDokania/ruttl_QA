@@ -1,0 +1,18 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Verify Forget Password Feature",
+    "uid" : "6315194e6d505dd8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619770654088,
+      "stop" : 1619770703769,
+      "duration" : 49681
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

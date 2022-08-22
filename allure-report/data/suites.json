@@ -1,0 +1,18 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Verify Forget Password Feature",
+    "uid" : "6315194e6d505dd8",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619770654088,
+      "stop" : 1619770703769,
+      "duration" : 49681
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

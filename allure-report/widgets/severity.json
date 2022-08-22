@@ -1,0 +1,11 @@
+[ {
+  "uid" : "6315194e6d505dd8",
+  "name" : "Verify Forget Password Feature",
+  "time" : {
+    "start" : 1619770654088,
+    "stop" : 1619770703769,
+    "duration" : 49681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
